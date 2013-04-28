@@ -6,6 +6,9 @@
     <link href="{$baseUrl}web/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
     <script src="{$baseUrl}web/bootstrap/js/bootstrap.min.js"></script>
      <script src="{$baseUrl}web/js/jquery-1.5.1.min.js"></script>
+       <script type="text/javascript">
+      var PAYMILL_PUBLIC_KEY = '20478461769c584991e032df864676a2';
+  </script>
         <style type="text/css">
       body {
         padding-top: 5px;
@@ -50,10 +53,10 @@
   <div class="container-narrow">
         <div class="masthead">
         <ul class="nav nav-pills pull-right" style="margin-top:10px;">
-          <li <!--class="active"--><a href="#">| Hello Nuno |</a> </li>
-          <li ><a href="#">Search</a></li>
+          <li <!--class="active"--><a href="index.php"> Hello Nuno </a> </li>
+          <li ><a href="index.php">Search</a></li>
           <li><a href="#">My Listings</a></li>
-          <li><a href="#">Pitch My Crib</a></li>
+          <li><a href="pitch.php">Pitch My Crib</a></li>
           <li ><a href="#">Logout</a></li>
         </ul>
         <h3 class="muted" ><img src="{$baseUrl}web/img/logo.png"/></h3>

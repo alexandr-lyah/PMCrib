@@ -1,0 +1,16 @@
+
+var ftGUID_580771="19175E1BA84962";
+var ftConfID_580771="481658001";
+var ftParams_580771="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_referrer=http%3A//inhabitat.com/19th-century-london-water-tower-transformed-into-a-unique-high-flying-home/water-tower-house-10/&cachebuster=379738.29661495984";
+var ftKeyword_580771="";
+var ftCustom_580771="";
+var ftSection_580771="";
+var ftSegment_580771="b5e,bvn";
+var ftSegmentList_580771=[{s:'b5e'},{s:'bvn'}];
+var ftRuleMatch_580771="0";
+var ftTimestamp_580771="1367098473";
+var ftImp580771 = {};
+ftImp580771.privacy = "x";
+
+document.write('<scr'+'ipt src="http://cdn.flashtalking.com/xre/58/580771/481658/js/j-580771-481658.js" id="ftscript_m580771" name="ftscript_m580771"></scr'+'ipt>');
+                    

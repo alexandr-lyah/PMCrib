@@ -1,0 +1,16 @@
+
+var ftGUID_506463="19175E1BA84962";
+var ftConfID_506463="0";
+var ftParams_506463="click=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DC2xiqUER8Ubr7FvGcigb7xIDABJHa9uoCwfKtml6gq8CpWxABIABQgMfhxARgu76ug9AKggERY2EtaWJfaG9tZV9zZWRlXzPIAQmoAwGqBMgBT9AEnMdGDfC97gZ6qgOaFTaaB81vUaPZi_3tWy2-km6O17sr0EMPHTKWfeOI75ZPrRqSP216yBJyPcLpr8U0PTCze-JNM_ebnW27ru2uH1wyLn7OmAfQgAZBjXBiPcNspDttHv9JdNGpZthQUiNJYF1Xw6osc-5OawzEgjOXod_vzblzw1k5MRY2DnZYo5FBq6HOK1B_f1uUfPvpaeU3yP-Km90henCRwi79PJhdz4MUfkADMyEw-rKfyEhqFEzvQ77G_jPtoTyABtKmmYLJ_fLE3AE%26num%3D1%26sig%3DAOD64_2cV1ECqCsRh4JJUVFHOhpbgRDEkg%26client%3Dca-ib_home_sede_3%26adurl%3Dhttp://ad.doubleclick.net/clk%253B266577400%253B92520007%253Bb%253Bdcopt_unesc%253D1%253Bu%253DxbAAXbk6rUIpQM4rQN4xh7XGNr_6pw7b1JQcdZEzYyOuscIncxYRrpLoAk4SU76uVTG87EiOYprwp4iUdW2cOD30e8Yq3F-KJHCA%253F&ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&cachebuster=558872.8077709675";
+var ftKeyword_506463="";
+var ftCustom_506463="";
+var ftSection_506463="";
+var ftSegment_506463="b5e,bvn";
+var ftSegmentList_506463=[{s:'b5e'},{s:'bvn'}];
+var ftRuleMatch_506463="0";
+var ftTimestamp_506463="1367098474";
+var ftImp506463 = {};
+ftImp506463.privacy = "x";
+
+document.write('<scr'+'ipt src="http://cdn.flashtalking.com/xre/50/506463/489082/js/j-506463-489082.js" id="ftscript_m506463" name="ftscript_m506463"></scr'+'ipt>');
+                    

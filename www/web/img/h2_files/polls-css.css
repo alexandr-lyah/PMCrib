@@ -1,0 +1,212 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress 2.7 Plugin: WP-Polls 2.40										|
+|	Copyright (c) 2008 Lester "GaMerZ" Chan									|
+|																							|
+|	File Written By:																	|
+|	- Lester "GaMerZ" Chan															|
+|	- http://lesterchan.net															|
+|																							|
+|	File Information:																	|
+|	- Polls CSS File																	|
+|	- wp-content/plugins/wp-polls/polls-css.css								|
+|																							|
++----------------------------------------------------------------+
+*/
+
+
+.wp-polls-archive {
+	/* background-color: #ffffff; */
+}
+.wp-polls, .wp-polls-form {
+	/* background-color: #ffffff; */
+}
+.wp-polls ul li, wp-polls-ul li, .wp-polls-ans ul li {
+	text-align: left;
+	background-image: none;
+	display: block;
+}
+.wp-polls ul, .wp-polls-ul, .wp-polls-ans ul  {
+	text-align: left;
+	list-style: none;
+	
+}
+.wp-polls ul li:before, wp-polls-ul li, .wp-polls-ans ul li:before, #sidebar ul ul li:before {
+	content: '';
+}
+.wp-polls IMG, .wp-polls LABEL , .wp-polls INPUT, .wp-polls-loading IMG, .wp-polls-image IMG {
+	display: inline;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+p.wp-polls-question {
+color:#8E9938;
+font-size: 17px;
+line-height:19px;
+font-weight:bolder;
+padding-bottom:8px;
+}
+.wp-polls-ul {
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+.wp-polls-ul li {
+padding-bottom:4px;
+}
+.wp-polls-ans {
+	width:100%;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+	/* background-color: #ffffff; */
+}
+.wp-polls-loading {
+	display: none;
+	text-align: center;
+	height: 16px;
+	line-height: 16px;
+}
+
+
+.wp-polls-image {
+	border: 0px;
+}
+.wp-polls .Buttons {
+	background-image: url(img/arrow-vote.gif);
+	width: 210px;
+	height: 38px;
+	display: block;
+	text-indent: -10000px;
+	overflow: hidden;
+}
+
+.wp-polls .Buttons:hover {
+cursor:pointer;
+
+}
+
+/* Polls Archive Paging */
+.wp-polls-paging a, .wp-polls-paging a:link {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.wp-polls-paging a:visited {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.wp-polls-paging a:hover {	
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.wp-polls-paging a:active {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.wp-polls-paging span.pages {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px 2px 2px 2px;
+	color: #000000;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+.wp-polls-paging span.current {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	font-weight: bold;
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.wp-polls-paging span.extend {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;	
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/*--------------   Paul's Additions  ----------------- */
+.wp-polls form p {
+	text-align: left;
+}
+
+.wp-polls .wp-polls-ul {
+	margin-top: -15px;
+}
+
+.poll-title { 
+	font-size: 16px; 
+	margin-bottom: 0px;
+	color: #8f8f37;
+	
+}
+.wp-polls-ans .poll-item {
+	width: 537px;
+	list-style-type: none;
+	/*background-color: #d7dcbc;*/
+	margin-top: 20px;
+	clear: both;
+	float: left;
+	height: auto;
+	color: #667331;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: "Verdana", Helvetica, sans-serif;
+	padding-top: 20px;
+	font-weight: bold;
+	overflow: hidden;
+
+}
+.wp-polls-ans .poll-item input {
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 7px;
+}
+.wp-polls-ans .poll-item label {
+	float: left;
+	
+}
+.wp-polls-ans .poll-item small {
+    background-color: #919131;
+	color: #FFF;
+	padding: 8px;
+	font-size: 11px;
+	float: right;
+	margin-top: -12px;
+}
+.wp-polls-ans .poll-item small span {
+	font-size: 14px;
+}
+.wp-polls-ans .poll-item .pollbar {
+
+	clear: both;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+.wp-polls-ans .poll-item img {
+	clear: left;
+	margin-left: 0px;
+	margin-top: 7px;
+	margin-bottom: 0px;
+	margin-right: 500px;
+}
+.clear {
+	clear: both;
+}

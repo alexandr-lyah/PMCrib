@@ -1,0 +1,159 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress 2.8 Plugin: WP-PageNavi 2.50									|
+|	Copyright (c) 2009 Lester "GaMerZ" Chan									|
+|																							|
+|	File Written By:																	|
+|	- Lester "GaMerZ" Chan															|
+|	- http://lesterchan.net															|
+|																							|
+|	File Information:																	|
+|	- Page Navigation CSS Style													|
+|	- wp-content/plugins/wp-pagenavi/pagenavi-css.css					|
+|																							|
++----------------------------------------------------------------+
+*/
+
+#page-navigation {
+  margin-left: 8px;
+  float: left;
+  width: 100%;
+  clear: both;
+
+}
+
+#wp-pagenavi ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#wp-pagenavi ul li { 
+  display: inline-block;
+  vertical-align: top;
+  float: left;  
+  color: #68761d;
+  margin: 2px;
+}
+
+/*Page Buttons*/
+
+#wp-pagenavi #pages {
+  font-size: 9px;
+  line-height:14px;
+  color: #68761d;
+}
+#page-navigation p {
+  font-weight: bold;
+  color: #96A411;
+
+} 
+
+#wp-pagenavi a{
+	width: 34px;
+	text-decoration: none;
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+	line-height:34px;
+	height: 34px;
+	display: block;
+}
+
+#wp-pagenavi a.page  {	
+	color: #68761d;
+	background-color: #E0E7B1;
+	min-width: 34px;
+	width: 34px;
+	display: block;
+}
+
+#wp-pagenavi a:hover.page  {	
+	background-color: #96A411;
+	color: #FFFFFF;
+}
+
+/*Next and Back Buttons*/
+#wp-pagenavi a.back {
+  text-align: right;
+  padding-right: 6px;
+  background-image:url('FTR-BACK-Arrow-Off.gif');
+  background-repeat:no-repeat;
+  
+}
+
+#wp-pagenavi a.next {
+  text-align: left;
+  padding-left: 6px;
+  background-image:url('FTR-NEXT-Arrow-Off.gif');
+  background-repeat:no-repeat;
+}
+
+#wp-pagenavi a.back, #wp-pagenavi a.next {
+  width: 100px;
+	color: #FFFFFF;
+}
+
+#wp-pagenavi a:hover.back, #wp-pagenavi a:hover.next {	
+	color: #FFFFFF;
+}
+
+#wp-pagenavi li.back {	
+	background-image:url('FTR-BACK-Arrow-Over.gif');
+}
+
+#wp-pagenavi li.next {	
+	background-image:url('FTR-NEXT-Arrow-Over.gif');
+}
+
+#wp-pagenavi a:hover.back {	
+  background-color: #FFF;
+	background-image:url('FTR-BACK-Arrow-Over.gif');
+}
+
+#wp-pagenavi a:hover.next {	
+  background-color: #FFF;
+	background-image:url('FTR-NEXT-Arrow-Over.gif');
+}
+
+
+/*First an Last Buttons*/
+#wp-pagenavi a.last, #wp-pagenavi a.first {
+  font-size: 13px;
+  width: 60px;
+	color: #68761d;
+	background-color: #E0E7B1;
+}
+
+#wp-pagenavi a.last {
+  height: 29px;
+  padding-top: 5px;
+  line-height:10px;
+}
+
+#wp-pagenavi a:hover.last, #wp-pagenavi a:hover.first {
+  background-color: #96A411;
+	color: #FFFFFF;
+}
+
+#wp-pagenavi span{
+	line-height:10px;
+}
+
+/*Current Button*/
+#wp-pagenavi #current {
+  width: 34px;
+  background-color: #CCCCCC;
+  color: #333333;
+}
+
+#wp-pagenavi #current #current-page {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 28px;
+	line-height:34px;
+	width: 34px;
+}

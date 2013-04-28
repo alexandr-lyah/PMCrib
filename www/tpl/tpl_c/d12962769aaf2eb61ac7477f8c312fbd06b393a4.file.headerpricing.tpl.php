@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-04-27 21:23:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-04-28 02:58:21
          compiled from "tpl/headerpricing.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1731935065517c259a71fff3-33219649%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:524257864517c742d53eb05-97023268%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd12962769aaf2eb61ac7477f8c312fbd06b393a4' => 
     array (
       0 => 'tpl/headerpricing.tpl',
-      1 => 1367090344,
+      1 => 1367110698,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1731935065517c259a71fff3-33219649',
+  'nocache_hash' => '524257864517c742d53eb05-97023268',
   'function' => 
   array (
   ),
@@ -80,11 +80,11 @@ web/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
   <div class="container-narrow">
         <div class="masthead">
         <ul class="nav nav-pills pull-right" style="margin-top:10px;">
-          <li class="active"><a href="#">Hello Nuno</a></li>
-          <li ><a href="#">Search</a></li>
+          <li <!--class="active"--><a href="index.php"> Hello Nuno </a> </li>
+          <li ><a href="index.php">Search</a></li>
           <li><a href="#">My Listings</a></li>
-          <li><a href="#">Pitch Your Crib</a></li>
-          <li><a href="#">Logout</a></li>
+          <li><a href="pitch.php">Pitch My Crib</a></li>
+          <li ><a href="#">Logout</a></li>
         </ul>
         <h3 class="muted" ><img src="<?php echo $_smarty_tpl->getVariable('baseUrl')->value;?>
 web/img/logo.png"/></h3>

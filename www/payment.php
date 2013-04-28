@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="content-type" 
-              content="text/html; charset=utf-8"/>
-        <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
-        <?php
+   <?php
  
+   require_once('common.php');
+   
         //
         // Please download the Paymill PHP Wrapper at
         // https://github.com/Paymill/Paymill-PHP
@@ -26,25 +22,24 @@
             $transactionsObject = new Services_Paymill_Transactions(PAYMILL_API_KEY, PAYMILL_API_HOST);
  
             $params = array(
-            'amount'        => '15',   // E.g. "15" for 0.15 EUR!
+            'amount'        => '1500',   // E.g. "15" for 0.15 EUR!
             'currency'      => 'EUR',  // ISO 4217
             'token'         => $token,
-            'description'   => 'Test Transaction'
+            'description'   => 'Pitch My Crib'
             );
  
             $transaction = $transactionsObject->create($params);
          }
+         // php print_r($transaction);
+         
+
+         $s->assign('displayshare', true);
+          
+         $s->display('header.tpl');
+         $s->display('paymentok.tpl');
+         $s->display('footer.tpl');
+         
         ?>
-    </head>
-    <body>
-        <div class="container">
-            <h1>We appreciate your purchase!</h1>
- 
-            <h4>Transaction:</h4> 
-            <pre>
-               <?php print_r($transaction); ?>
-            </pre>
-        </div>
-        <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
-    </body>
-</html>
+
+
+          

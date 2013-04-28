@@ -1,0 +1,29 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "image"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=Cn99JUER8UYXFBJOjigbCmYDgDanu4YsCwdbmj0PZnrjWjwEQASCny9UcUOKomcr-_____wFgu76ug9AKoAGhirn3A8gBA6kC-4luqJ37uT6oAwGqBMoBT9AaFyKywMBHVMU70Fjp3HclvmAOA3RwICmueNq5PJ9YY7lV0T_tMYEpf2K1Ifr_yaTSCYCCm-OE9Op6_NzwrMbvWvcebTABcG-r1NVeidolo7B64j3gJloi1-GvHO47lTbsK446R8zGoW07fVg09h19RhSwElqMCe9oHsn9cx8RlxePn7iddsha0xfj7rc2_XZuqJkZwh88Wvdf_ChOK5HZbOhyRZc3EKpCYFd2ok8HDKhJ_sy6WnGa6YlPfklotIvmGPtbsaktuogGAaAGA4AHx_XGCA&amp;num=1&amp;cid=5Gj5-xstXQw6DtX2u144JmWJ&amp;sig=AOD64_2AfT24xjrz_d8GG0sgriBFWdfYSQ&amp;client=ca-ib_home_sede_3&amp;adurl=http://www.offshoreformations247.com"; 
+google_ad.visible_url = "www.offshoreformations247.com"; 
+google_ad.image_url = "http://pagead2.googlesyndication.com/simgad/13952495023049885689";
+google_ad.image_width = "728";
+google_ad.image_height = "90";
+google_ad.image_alt_text = "";
+google_ads[0] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://inhabitat.com/19th-century-london-water-tower-transformed-into-a-unique-high-flying-home/water-tower-house-10/%26gl%3DGB%26hl%3Den%26client%3Dca-ib_home_sede_3%26hideleadgen%3D1%26ai0%3DCn99JUER8UYXFBJOjigbCmYDgDanu4YsCwdbmj0PZnrjWjwEQASCny9UcUOKomcr-_____wFgu76ug9AKoAGhirn3A8gBA6kC-4luqJ37uT6oAwGqBMoBT9AaFyKywMBHVMU70Fjp3HclvmAOA3RwICmueNq5PJ9YY7lV0T_tMYEpf2K1Ifr_yaTSCYCCm-OE9Op6_NzwrMbvWvcebTABcG-r1NVeidolo7B64j3gJloi1-GvHO47lTbsK446R8zGoW07fVg09h19RhSwElqMCe9oHsn9cx8RlxePn7iddsha0xfj7rc2_XZuqJkZwh88Wvdf_ChOK5HZbOhyRZc3EKpCYFd2ok8HDKhJ_sy6WnGa6YlPfklotIvmGPtbsaktuogGAaAGA4AHx_XGCA\x26usg\x3dAFQjCNFUhBu50jr2r0AMst3V2BzyraCJfA";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

@@ -1,0 +1,279 @@
+.login {
+	padding: 0px;
+}
+.login div {
+	padding-top: 10px;
+	padding-bottom: 12px
+}
+
+.login .error {
+	padding: 5px;
+	border: 1px solid #c00;
+	background-color: #ffebe8;
+	color: #333;
+	width: 474px !important;
+}
+
+.login .message {
+	padding: 5px;
+	border: 1px solid #696969;
+	background-color: #CCC;
+	color: #333;
+}
+
+.login form label {
+	display: block;
+	font-weight: bold;
+	font-size: 13px;
+	color: #b5b55f;
+	float: left;
+	width: 150px;
+	clear: left;
+	margin-top: 11px;
+	text-align: right;
+	padding-right: 8px;
+}
+
+.login form div.forgetmenot label {
+	display: inline;
+	float: none !important;
+	font-size: 11px;
+
+}
+
+.login form div.forgetmenot {
+	padding-left: 158px;
+}
+
+.login form div.forgetmenot ul, .login form div.forgetmenot li{
+	display: inline;
+	margin-left: 30px;
+}
+
+
+.login input {
+	margin: 5px 0;
+}
+p.submit {text-align: center;}
+
+.profile .screen-reader-text,
+.profile .screen-reader-text span {
+	height: 1px;
+	left: -1000em;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+}
+
+.mu_register .hint {
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: 157px !important;
+}
+
+
+.mu_register label.checkbox {
+	display: inline;
+}
+
+#pass-strength-result {
+    border-style: solid;
+    border-width: 1px;
+    margin: 12px 5px 5px 1px;
+    padding: 3px 5px;
+    text-align: center;
+    width: 200px;
+}
+
+#pass-strength-result.strong,
+#pass-strength-result.short {
+    font-weight: bold;
+}
+
+#pass-strength-result {
+    background-color: #eee;
+    border-color: #ddd !important;
+}
+
+#pass-strength-result.bad {
+    background-color: #ffb78c;
+    border-color: #ff853c !important;
+}
+
+#pass-strength-result.good {
+    background-color: #ffec8b;
+    border-color: #fc0 !important;
+}
+
+#pass-strength-result.short {
+    background-color: #ffa0a0;
+    border-color: #f04040 !important;
+}
+
+#pass-strength-result.strong {
+    background-color: #c3ff88;
+    border-color: #8dff1c !important;
+}
+
+.login #user_login, .login #user_pass, .login #user_name, .login #user_email, .login #user_email_retype, .login #pass1, .login #pass2{
+	background:none repeat scroll 0 0 #fff !important;
+	border:1px solid #ebebeb !important;
+	color:#958178;
+	font-size:110%;
+	padding:3px;
+	height: 20px;
+	width:225px;
+	font-weight:normal;
+}
+
+
+
+#setupform .setup-header {
+	height: 15px;
+	background:#EEF1DE;
+	text-align: center;
+	font-size: 140%;
+	color: #97A25D; 
+	font-weight: bold;
+}
+
+#setupform .signup-header {
+	height: 25px;
+	padding: 5px;
+	background:#97A25D;
+	text-align: left;
+	font-size: 140%;
+	color: white; 
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+.oneall_social_login_label label {
+	text-align: left !important;
+	
+	width: 90px !important;
+}
+
+#social-login {
+	padding: 0px;
+	overflow: hidden;
+}
+
+.oneall_social_login_providers {
+	height: 29px;
+	overflow: hidden;
+	width: 163px;
+	float:left;
+	padding: 0px;
+}
+
+.oneall_social_login_label {
+	float:left;
+}
+
+#lostpasswordform #wp-submit, #setupform #wp-submit, 
+#login #wp-submit{
+	background: none repeat scroll 0 0 #FFFADA;
+	border: 1px solid #C7BB45;
+	color: #958178;
+	font-size: 110% !important;
+	padding: 3px;
+	font-weight: normal;
+	
+}
+#login #wp-submit{
+	font-size: 140%;
+}
+.tml-action-links{
+	list-style: none;
+	padding: 0px;
+}
+
+p.newsletter  input{
+	width: auto; 
+	margin-left: 157px
+}
+
+p.newsletter span { margin-left: 5px !important;}
+
+#social-login-register, #social-login {height:60px;}
+#social-login-register .oneall_social_login {width: 290px; height:60px; margin: 0px auto;}
+#social-login .oneall_social_login {margin: 0px auto;height:60px;}
+
+.plugin .footer{
+	font-size: 10px;
+	line-height: 12px;
+}
+
+#recaptcha_area, #recaptcha_table {
+    margin: 0px auto;
+}
+
+#recaptcha_area div {padding: 0px; margin: 0px;}
+
+#reg_author, #log_author, #reg_email, #log_pass{
+	background:none repeat scroll 0 0 #fff !important;
+	border:1px solid #ebebeb !important;
+	color:#958178;
+	font-size:110%;
+	padding:3px;
+	height: 20px;
+	width:148px !important;
+	font-weight:normal;
+}
+
+
+.comment-login label, .comment-signup label , #recaptcha-container label{
+	display: inline;
+	font-size: 12px;
+	color: #666;
+	width: 242px !important;
+	padding: 0px !important;
+	padding-right: 8px;
+	font-family: arial;
+}
+
+.comment-login label { width: 150px !important;}
+
+.subscribe-to-comments #subscribe { float: left;}
+.subscribe-to-comments {display: none !important;}
+
+#social-login-register-comment  label {
+	text-align: left !important;
+	width: 108px !important;
+	padding-top: 10px !important;
+	display: block;
+	font-weight: bold;
+	font-size: 15px;
+	color: #b5b55f;
+	margin-top: 11px;
+	padding-right: 8px;
+}
+
+#social-login-register-comment .oneall_social_login_providers {
+	height: 40px;
+	overflow: hidden;
+	width: 86px;
+	float:left;
+	padding: 0px;
+}
+
+#social-login-register-comment {
+	height: 40px;
+	width:  204px !important;
+	float: left;
+}
+
+#social-login-register-inhabitat {
+	float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 10px;
+}
+.oneall_social_login_providers iframe {width: 151px !important;}
+
+#loginbox * label[for="email"], #loginbox * label[for="author"], #loginbox * label[for="user_login"],  #loginbox * label[for="user_pass"] {width: 60px !important;} 
+#comment-message, #comment-message-good {width: 534px !important;}

@@ -1,0 +1,1 @@
+(function(){stButtons.processCB({"time":0,"total":0,"url":"http:\/\/inhabitat.com\/19th-century-london-water-tower-transformed-into-a-unique-high-flying-home\/water-tower-house-10\/","ourl":"http:\/\/inhabitat.com\/19th-century-london-water-tower-transformed-into-a-unique-high-flying-home\/water-tower-house-10\/"})})();

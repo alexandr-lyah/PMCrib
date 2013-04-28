@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-04-27 21:34:34
+<?php /* Smarty version Smarty-3.0.7, created on 2013-04-28 02:58:12
          compiled from "tpl/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:278820216517c284a6995f8-86205581%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1284919824517c7424428818-68530190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c6b2c89853c96e0b9a9bc209d3c3f51e9525ed10' => 
     array (
       0 => 'tpl/header.tpl',
-      1 => 1367091259,
+      1 => 1367110691,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '278820216517c284a6995f8-86205581',
+  'nocache_hash' => '1284919824517c7424428818-68530190',
   'function' => 
   array (
   ),
@@ -28,6 +28,9 @@ web/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
 web/bootstrap/js/bootstrap.min.js"></script>
      <script src="<?php echo $_smarty_tpl->getVariable('baseUrl')->value;?>
 web/js/jquery-1.5.1.min.js"></script>
+       <script type="text/javascript">
+      var PAYMILL_PUBLIC_KEY = '20478461769c584991e032df864676a2';
+  </script>
         <style type="text/css">
       body {
         padding-top: 5px;
@@ -72,10 +75,10 @@ web/js/jquery-1.5.1.min.js"></script>
   <div class="container-narrow">
         <div class="masthead">
         <ul class="nav nav-pills pull-right" style="margin-top:10px;">
-          <li <!--class="active"--><a href="#">| Hello Nuno |</a> </li>
-          <li ><a href="#">Search</a></li>
+          <li <!--class="active"--><a href="index.php"> Hello Nuno </a> </li>
+          <li ><a href="index.php">Search</a></li>
           <li><a href="#">My Listings</a></li>
-          <li><a href="#">Pitch My Crib</a></li>
+          <li><a href="pitch.php">Pitch My Crib</a></li>
           <li ><a href="#">Logout</a></li>
         </ul>
         <h3 class="muted" ><img src="<?php echo $_smarty_tpl->getVariable('baseUrl')->value;?>
