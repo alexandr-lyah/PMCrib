@@ -1,16 +1,16 @@
 <?php
 
 $dbType = 'mysql';   // what driver to use to connect
-$dbName = "irememberya";
-$dbUser = "root";
-$dbPass = "root";
+$dbName = "";
+$dbUser = "";
+$dbPass = "";
 $dbHost = "localhost";
 
 $template_dir = "tpl";
 
 $production = false; 
 
-$path = "/Applications/MAMP/htdocs/pitchmycrib/";
+$path = "";
 
 $API_CONFIG = array(
     'appKey' => 'LinkedINAPPKEY',
@@ -18,8 +18,8 @@ $API_CONFIG = array(
     'callbackUrl' => NULL
 );
 
-$salt = 'lkjlhy5678iuo123';
+$salt = '';
 
 $domain = 'http://irememberya.com/';
-$domainLocal = 'http://localhost/pitchmycrib/www/'
+$domainLocal = ''
 ?>
